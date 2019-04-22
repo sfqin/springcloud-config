@@ -16,3 +16,4 @@ zuul:
 #  将直接用模块key的方式访问服务的方式禁用
   ignored-patterns: /*-module/**
   sensitive-headers:
+env: pre

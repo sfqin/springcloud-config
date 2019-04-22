@@ -11,8 +11,8 @@ eureka:
 zuul:
   routes:
 #  自定义路由 注意映射路径要唯一底层存储为map 会出现覆盖
-    order-module: /api/order/**
-    product-module: /api/product/**
+    order-module: /api/order1/**
+    product-module: /api/product1/**
 #  将直接用模块key的方式访问服务的方式禁用
   ignored-patterns: /*-module/**
   sensitive-headers:

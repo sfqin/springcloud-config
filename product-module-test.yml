@@ -27,4 +27,4 @@ management:
         include: "*"
         
 apple:
-  price: 20
+  price: 13

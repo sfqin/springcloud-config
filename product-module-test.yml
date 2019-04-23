@@ -17,7 +17,7 @@ spring:
       probability: 1
   rabbitmq:
     host: 192.168.19.12
-    port: 5672
+    port: 5671
     username: guest
     password: guest
 management:
